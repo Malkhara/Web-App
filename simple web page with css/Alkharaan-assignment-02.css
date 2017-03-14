@@ -1,0 +1,182 @@
+/*
+* — Alkharaan, Mohammd  CPS 330 Assignment #2. —
+*/
+
+
+html{	
+	
+	
+	}
+
+body{ /* body background - the white one. */
+	background-image: url(images/background-pattern.png);
+	position: fixed;
+
+	
+}
+header h1{/* CRM*/
+	padding: 0.25em 0.25em .25em 5em;
+}
+header { /* header background */
+	background-image: url(images/header-background.png);
+	padding: 0.05em;
+	
+}
+
+article,footer { /* to center the footer and article*/
+	border-style: solid;
+	border-width: .05px;
+	margin-left: 5em;
+	margin-right: 40em;
+	margin-top: 1em;
+	text-align: center;
+	margin-right: 40em;
+	margin-left: 40em;
+}
+
+ #mainMenu{ /* home, cat & Inv */
+	background-color: #283649;
+	text-align: right;
+	padding: 0.025em;
+}
+#mainMenu ul li{  /* home cat inv */
+	
+	list-style: none;
+	display: inline;
+	margin: lem;
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 18px;
+	color: white;
+	padding: 0.25em 0.25em .25em 5em;
+}
+
+#secondaryMenu{ /* contacts, orders, cal */
+		background-color: lightblue;
+		padding: 0.25em 0.25em .25em 5em;
+		color: lightblue;
+}
+
+#secondaryMenu ul li{ /* contacts, orders, cal */
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+	color: lightblue;
+	font-size: 18px;
+	list-style: none;
+	display: inline;
+	padding: 0.25em 0.25em .25em 5em;
+}
+
+a[href^="mailto"] { /* the mail logo */
+background: url(images/email.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+a[href^="tel"] {
+background: url(images/call.png) no-repeat 0 3px;
+padding-left: 1em;
+}
+div img{ /* the pic  */
+	
+    padding: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	border: 1px solid black;
+}
+
+div h2{/* Jack smith */
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 16pt;
+}
+
+section h3{ /* personal info, contact, sales */
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+	color: white;
+	font-size: 18px;
+	background-image: url(images/header-background.png);
+	background-repeat: repeat;
+	padding: 0.25em 0.25em .25em .5em;
+	text-align: left;
+	
+
+}
+section p{ /* address phone ... */
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 0.25em 0.25em .25em .5em;
+} 
+section p em{ /* address, city ... */
+	color: gray;
+}
+
+div.actions { /* flag edit */
+	background-color: #283649;	 	
+	padding: .05%;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	margin-left .5em;
+	text-align: left;
+}
+
+
+.actions ul li{/* edit, flag */
+	list-style: none;
+	display: inline;
+	text-align: left;
+	padding: 0.1em 1em 0.1em -5em;
+	
+	
+}
+.actions ul{/* edit, flag */
+	padding: 0em 0em 0em 0.5em;
+}
+
+div.actions a {/* edit, flag */
+	background-color: #DAE1E8;		
+	padding: 0.1em 1em 0.1em 2em;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-right: 0.5em;
+	border-style: solid;
+	border-width: .05px;
+	border-color: black;
+	
+}
+
+.actionEdit {/* edit logo*/
+	background: url(images/edit.png) no-repeat;
+	background-position: 5px 3px;
+	
+}
+
+.actionFlag{ /* flag logo*/
+	background: url(images/flag.png) no-repeat;
+	background-position: 5px 3px;
+}
+
+figure{ /* the chart */
+	border: 1px solid black;
+	margin: 1em;
+	padding: 0.25em 0.25em .25em 2em;
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	
+}
+figure img{/* the chart */
+	display: block;
+    margin-left: -1em;
+    margin-right: 0em;
+	width: 500px;
+}
+
+footer{
+	text-align: left;
+	font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 14px;
+	color: white;
+	background-color: #283649;
+	border: 1px solid black;
+	padding: 0.25em 0.25em .25em 2em;
+	margin-left: 640px;
+    margin-right: 640px;
+}
